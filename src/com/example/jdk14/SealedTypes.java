@@ -4,8 +4,8 @@ class SealedTypes {
     public static void main(String[] args) {
 	NissanCar nissanCar = new Leaf();
 	String nissanName = switch(nissanCar) {
-	    case Leaf -> "Leaf";
-	    case Juke -> "Juke";
+	    case Leaf b -> "Leaf";
+	    case Juke j -> "Juke";
 	};
 	System.out.println(nissanName);
     }
