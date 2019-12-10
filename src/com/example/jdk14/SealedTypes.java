@@ -1,4 +1,4 @@
-package com.example.jdk13;
+package com.example.jdk14;
 
 class SealedTypes {
     public static void main(String[] args) {
